@@ -1,0 +1,277 @@
+@font-face {
+    font-family: "Preah";
+    src: url("./assets/Preahvihear/Preahvihear-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-family: "Preah";
+    background-color: #11071f;
+}
+
+.header {
+    background-color: #1a0b2e;
+    width: 100%;
+    height: 100px;
+}
+
+.container {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo-img {
+    margin-top: 25px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 50%;
+}
+
+.header-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.menu-item {
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    color: #7127ba;
+}
+
+.main {
+    height: calc(100vh - 100px);
+}
+
+.main-me {
+    width: 100%;
+    margin-top: 100px;
+    height: 50%;
+    display: flex;
+}
+
+.me-img {
+    background: url("./assets/Group\ 1939.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* background-color: red; */
+}
+
+.me-img img {
+    margin: 50px;
+}
+
+.main-info {
+    width: 100%;
+    height: 50%;
+}
+
+.name span {
+    color: #7127ba;
+}
+
+.title {
+    width: 60%;
+    margin-top: -10px;
+    line-height: 40px;
+}
+
+.title span {
+    color: #7127ba;
+    background: url("./assets/Ellipse\ 5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.sub-title {
+    font-size: 9px;
+}
+
+.main-info-subtitle {
+    margin-top: -25px;
+}
+
+.facebook {
+    color: #1877f2;
+}
+
+.main-info-text {
+    width: 70%;
+    margin-top: 50px;
+}
+
+.experience {
+    height: 700px;
+    background: url("./assets/Gradient\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.exp-cards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.exp-left-side {
+    width: 50%;
+    height: 100%;
+}
+
+.exp-right-side {
+    width: 50%;
+    height: 100%;
+}
+
+.exp-cards-item {
+    width: calc(100% - 30px);
+    height: 170px;
+    margin: 30px;
+    border-radius: 15px;
+    background: linear-gradient(-45deg, #190634, #38126d, #190634);
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2);
+    display: flex;
+}
+
+.card-item-img {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+
+.card-item-img img {
+    margin-top: 27.5px;
+}
+
+.card-item-info {
+    width: 70%;
+    height: 100%;
+}
+
+.card-item-title {
+    margin-bottom: 0;
+}
+
+.card-item-subtitle {
+    line-height: 20px;
+    font-size: 9px;
+    width: 70%;
+}
+
+.card-item-btn {
+    background-color: #2c1250;
+    border: 1px solid #693b93;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    font-family: Preah;
+    cursor: pointer;
+}
+
+.card-item-btn:hover {
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.257);
+}
+
+.card-item-btn:active {
+    scale: 0.99;
+}
+
+.tech-title {
+    font-size: 24px;
+}
+
+.tech-subtitle {
+    margin-top: -20px;
+}
+
+.tech-title span {
+    color: #7127ba;
+}
+
+.tech-img {
+    width: 100%;
+}
+
+.portfolio {
+    margin-top: 100px;
+}
+
+.technologies .container {
+    text-align: center;
+}
+
+.portfolio-card {
+    display: flex;
+    height: 500px;
+    padding-top: 200px;
+}
+
+.top-title {
+    color: #7127ba;
+}
+
+.info {
+    background-color: rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(50px);
+    padding: 30px;
+    border-radius: 15px;
+    position: relative;
+    left: 60px;
+    z-index: 1;
+}
+
+.info2 {
+    background-color: rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(50px);
+    padding: 30px;
+    border-radius: 15px;
+    position: relative;
+    left: -60px;
+    z-index: 1;
+}
+
+.gradient-left {
+    background: url("./assets/Gradient\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+.gradient-right {
+    background: url("./assets/Gradient\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.footer {
+    width: 60%;
+}
+
+.footer ul {
+    width: 100px;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+i:hover {
+    color: #7127ba;
+    cursor: pointer;
+}
